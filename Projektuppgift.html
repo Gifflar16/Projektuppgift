@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Projektuppgift.css" />
+    <link rel="icon" type="image/x-icon" href="blocket.logo.jpg" />
+    <link
+      a
+      href="@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap%27);"
+    />
+    <script
+      src="https://kit.fontawesome.com/4b39a549d2.js "
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"
+          ><img src="blocket.logo.jpg" style="width: 30%"
+        /></a>
+        <a href="#bottom">Page down</a>
+        <a href="recept.html">Recept</a>
+        <a href="formular.html">Logga in</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <!--Kan ej javascripten-->
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+      <div class="header">
+        <div class="header-text">
+          <h1>Blocket Bilar</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div></div>
+      <section class="flex-container">
+        <div class="flex-item-left">
+          <h2>Edward Bloms bakismat</h2>
+          <p>
+            Ett av Edward Bloms mest kända recept är hans smält ost i skål med
+            grogg. Det är ett recept han själv har uppfunnit som enligt honom
+            passar perfekt när man är bakfull.
+          </p>
+          <p><a href="recept.html">Till receptet</a></p>
+        </div>
+        <div class="flex-item-right">
+          <img src="volvo940.webp" style="text-align: center" />
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="bottom">
+      <i class="fab fa-instagram"></i>
+      <p></p>
+      <i class="fab fa-facebook-square"></i>
+      <p></p>
+      <i class="fab fa-youtube"></i>
+      <p></p>
+      <i class="fab fa-twitter"></i>
+      <p></p>
+    </footer>
+  </body>
+</html>
