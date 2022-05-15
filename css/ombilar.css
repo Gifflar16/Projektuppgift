@@ -84,19 +84,22 @@ body {
   font-size: 75px;
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  font-size: 30px;
-  text-align: left;
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+table {
+  width: 75%;
 }
 
-.flex-item-right {
-  overflow: hidden;
+th {
+  height: 70px;
 }
 
-.flex-text {
-  width: 50%;
+td {
+  height: 30px;
 }
 
 @media (max-width: 500px) {
