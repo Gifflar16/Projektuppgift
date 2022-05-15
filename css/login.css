@@ -37,7 +37,6 @@
   background-color: rgba(101, 151, 222, 1);
 }
 
-/* MOBILTELEFON och SMARTPHONE (portrait/stående) */
 @media only screen and (max-width: 768px) {
   #formular {
     width: 90%;

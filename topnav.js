@@ -6,3 +6,5 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+//mytopnav    tabell    navtagg    alt på bilder - minisajt exempel   kanske en karta//
