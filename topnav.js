@@ -7,4 +7,4 @@ function myFunction() {
   }
 }
 
-//mytopnav    tabell    navtagg    alt på bilder - minisajt exempel   kanske en karta//
+//kanske en karta//

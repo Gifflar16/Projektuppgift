@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/ombilar.css" />
+    <link rel="stylesheet" href="css/Projektuppgift.css" />
     <link
       rel="icon"
       type="image/x-icon"
@@ -19,7 +20,7 @@
   </head>
   <body>
     <header>
-      <div class="topnav" id="myTopnav">
+      <nav class="topnav" id="myTopnav">
         <a href="Projektuppgift.html" class="active"
           ><img
             src="../Projektuppgift/images/blocket.logo.jpg"
@@ -31,7 +32,7 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
-      </div>
+      </nav>
 
       <div class="hero">
         <div class="hero-text">
@@ -40,80 +41,93 @@
       </div>
     </header>
     <main>
-      <table>
-        <tr>
-          <th>Hej</th>
-          <th>Volvo 850</th>
-          <th>Volvo 940</th>
-          <th>BMW E36</th>
-          <th>Mercedes W124</th>
-          <th>Honda Civic</th>
-          <th>Subaru Impreza</th>
-        </tr>
-        <tr>
-          <td>Årsmodeller</td>
-          <td>1992-1997</td>
-          <td>1991-1998</td>
-          <td>1990-2000</td>
-          <td>1984-1997</td>
-          <td>1992-1995</td>
-          <td>1992-2000</td>
-        </tr>
-        <tr>
-          <td>Hästkrafter</td>
-          <td>126-250</td>
-          <td>82-190</td>
-          <td>90-321</td>
-          <td>72-381</td>
-          <td>70-125</td>
-          <td>94-276</td>
-        </tr>
-        <tr>
-          <td>Drivlina</td>
-          <td>Framhjulsdriven/Allhjulsdriven</td>
-          <td>Bakhjusldriven</td>
-          <td>Bakhjusldriven</td>
-          <td>Bakhjulsdriven/Allhjulsdriven</td>
-          <td>Framhjulsdriven/Allhjulsdriven</td>
-          <td>Framhjulsdriven/Allhjulsdriven</td>
-        </tr>
-        <tr>
-          <td>Sittplatser</td>
-          <td>5</td>
-          <td>5</td>
-          <td>5</td>
-          <td>4-8</td>
-          <td>5</td>
-          <td>Unknown</td>
-        </tr>
-        <tr>
-          <td>Växellåda</td>
-          <td>Automar/Manuell</td>
-          <td>Automat/Manuell</td>
-          <td>Automat/Manuell</td>
-          <td>Automat/Manuell</td>
-          <td>Automat/Manuell</td>
-          <td>Automat/Manuell</td>
-        </tr>
-        <tr>
-          <td>Bränsle</td>
-          <td>Bensin/Diesel/Bi-Fuel</td>
-          <td>Bensin/Diesel/Dual-Fuel</td>
-          <td>Bensin/Diesel</td>
-          <td>Bensin/Diesel</td>
-          <td>Bensin</td>
-          <td>Bensin</td>
-        </tr>
-        <tr>
-          <td>Kaross(dörrar)</td>
-          <td>Sedan(4), Kombi(5)</td>
-          <td>Sedan(4), Kombi(5)</td>
-          <td>Sedan(4), Kombi(5), Coupé(2), Cabriolet(2), Halvkombi(3)</td>
-          <td>Sedan(4), Kombi(5), Coupé(2), Cabriolet(2), Limousine(6)</td>
-          <td>Sedan(4), Coupé(2), Halvkombi(3)</td>
-          <td>Sedan(4), Kombi(5), Coupé(2)</td>
-        </tr>
-      </table>
+      <!--
+      <div class="text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+          vitae corrupti aliquid, laboriosam, vel odit culpa ab harum ad
+          consequatur dolorem perferendis perspiciatis rerum ut. Cumque
+          blanditiis magni accusamus provident.
+        </p>
+      </div>
+      -->
+
+      <div style="overflow-x: auto">
+        <table class="center">
+          <tr>
+            <th>Hej</th>
+            <th>Volvo 850</th>
+            <th>Volvo 940</th>
+            <th>BMW E36</th>
+            <th>Mercedes W124</th>
+            <th>Honda Civic</th>
+            <th>Subaru Impreza</th>
+          </tr>
+          <tr>
+            <td>Årsmodeller</td>
+            <td>1992-1997</td>
+            <td>1991-1998</td>
+            <td>1990-2000</td>
+            <td>1984-1997</td>
+            <td>1992-1995</td>
+            <td>1992-2000</td>
+          </tr>
+          <tr>
+            <td>Hästkrafter</td>
+            <td>126-250</td>
+            <td>82-190</td>
+            <td>90-321</td>
+            <td>72-381</td>
+            <td>70-125</td>
+            <td>94-276</td>
+          </tr>
+          <tr>
+            <td>Drivlina</td>
+            <td>Framhjulsdriven/Allhjulsdriven</td>
+            <td>Bakhjusldriven</td>
+            <td>Bakhjusldriven</td>
+            <td>Bakhjulsdriven/Allhjulsdriven</td>
+            <td>Framhjulsdriven/Allhjulsdriven</td>
+            <td>Framhjulsdriven/Allhjulsdriven</td>
+          </tr>
+          <tr>
+            <td>Sittplatser</td>
+            <td>5</td>
+            <td>5</td>
+            <td>5</td>
+            <td>4-8</td>
+            <td>5</td>
+            <td>Unknown</td>
+          </tr>
+          <tr>
+            <td>Växellåda</td>
+            <td>Automar/Manuell</td>
+            <td>Automat/Manuell</td>
+            <td>Automat/Manuell</td>
+            <td>Automat/Manuell</td>
+            <td>Automat/Manuell</td>
+            <td>Automat/Manuell</td>
+          </tr>
+          <tr>
+            <td>Bränsle</td>
+            <td>Bensin/Diesel/Bi-Fuel</td>
+            <td>Bensin/Diesel/Dual-Fuel</td>
+            <td>Bensin/Diesel</td>
+            <td>Bensin/Diesel</td>
+            <td>Bensin</td>
+            <td>Bensin</td>
+          </tr>
+          <tr>
+            <td>Kaross(dörrar)</td>
+            <td>Sedan(4), Kombi(5)</td>
+            <td>Sedan(4), Kombi(5)</td>
+            <td>Sedan(4), Kombi(5), Coupé(2), Cabriolet(2), Halvkombi(3)</td>
+            <td>Sedan(4), Kombi(5), Coupé(2), Cabriolet(2), Limousine(6)</td>
+            <td>Sedan(4), Coupé(2), Halvkombi(3)</td>
+            <td>Sedan(4), Kombi(5), Coupé(2)</td>
+          </tr>
+        </table>
+      </div>
     </main>
     <footer>
       <div class="row primary" id="bottom">
@@ -173,7 +187,6 @@
       <div class="row copyright">
         <div class="footer-menu">
           <a href="Projektuppgift.html">Hem</a>
-          <!--måste länka till Projektuppgift.html på de andra sidorna-->
           <a href="ombilar.html">Om Bilar</a>
           <a
             href="https://www.blocket.se/annonser/hela_sverige/fordon/bilar?cg=1020"
@@ -184,7 +197,6 @@
       </div>
     </footer>
 
-    <script src="slideshow.js"></script>
     <script src="topnav.js"></script>
   </body>
 </html>

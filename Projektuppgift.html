@@ -20,7 +20,7 @@
   </head>
   <body>
     <header>
-      <div class="topnav" id="myTopnav">
+      <nav class="topnav" id="myTopnav">
         <a href="Projektuppgift.html" class="active"
           ><img
             src="../Projektuppgift/images/blocket.logo.jpg"
@@ -33,9 +33,9 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
-      </div>
+      </nav>
 
-      <div class="hero">
+      <div class="hero" alt="Volvo 940">
         <div class="hero-text">
           <h1>Blocket Bilar</h1>
         </div>
@@ -84,23 +84,31 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
 
-      <section class="flex-container">
-        <div class="flex">
-          <div class="flex-text">
-            <h2>Blocket</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Aspernatur, eligendi! Cupiditate iure id nobis ut magni deserunt
-              fugiat veniam necessitatibus ab velit consectetur beatae,
-              explicabo asperiores itaque laudantium, assumenda voluptas!
-            </p>
-            <p><a href="ombilar.html">Om bilen</a></p>
-          </div>
+      <div class="flex-container">
+        <div class="flex-item-left1">
+          <p>
+            Volvo 850 var under 90-talet den sportigaste svenska familjebilen på
+            marknaden med en 2,5 liter, femcylindrig, turbomatad motor på 250
+            kameler.
+          </p>
         </div>
-        <div class="flex-item-right">
-          <img src="../Projektuppgift/images/volvo850.webp" />
+        <div class="flex-item-right1" alt="Volvo 850"></div>
+      </div>
+      <div class="flex-container">
+        <div class="flex-item-left2">
+          <p>
+            Under 90-talet så var detta en av de finaste familjebilarna som
+            fanns på marknaden, Mercedes W124:an!
+          </p>
+          <a href="ombilar.html">
+            <button type="button" class="button2">
+              <p>Läs mer och jämför med andra bilar</p>
+            </button>
+          </a>
         </div>
-      </section>
+
+        <div class="flex-item-right2" alt="Mercedes W124"></div>
+      </div>
     </main>
     <footer>
       <div class="row primary" id="bottom">
@@ -160,7 +168,6 @@
       <div class="row copyright">
         <div class="footer-menu">
           <a href="#myTopnav">Hem</a>
-          <!--måste länka till Projektuppgift.html på de andra sidorna-->
           <a href="ombilar.html">Om Bilar</a>
           <a
             href="https://www.blocket.se/annonser/hela_sverige/fordon/bilar?cg=1020"
