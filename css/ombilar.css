@@ -20,6 +20,13 @@
   font-size: 75px;
 }
 
+.text-paragraf {
+  width: 50%;
+  height: 15%;
+  text-align: center;
+  margin: auto;
+  font-size: 25px;
+}
 .center {
   margin-left: auto;
   margin-right: auto;
@@ -45,11 +52,38 @@ td {
   text-align: center;
 }
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: grey;
+}
+
+tfoot {
+  background-color: lightgrey;
 }
 
 @media (max-width: 500px) {
   .flex-container {
     flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  table thead {
+    display: none;
+  }
+  table td {
+    display: flex;
+  }
+
+  table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+  tfoot td {
+    height: 75px;
+    text-align: center;
+  }
+  tfoot td::before {
+    width: 120px;
+    min-width: 120px;
   }
 }
